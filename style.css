@@ -64,7 +64,7 @@ main{
     border: 5px solid burlywood;
     margin-left: 10px;
     align-content: flex-start;
-    overflow-y: scroll
+    overflow-y: scroll;
 }
 .card{
     display: flex;
