@@ -6,9 +6,9 @@
 }
 
 :root{
-    --purple: #473B8C;
-    --pink: #8C4370;
-    --orange: #CF4A54;
+    --purple: #8135c7;
+    --pink: #f380c7;
+    --orange: #f6858f;
 }
 html, body{
     height: 100%;
