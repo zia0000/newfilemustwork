@@ -32,9 +32,9 @@ body{
     justify-content: center; 
     align-items: center; 
     color: var(--purple); 
-    border: 10px solid var(--purple); 
+    border: 10px solid black; 
     height: 50px; 
-    font-size: 3rem;
+    font-size: 6rem;
 }
 
 main{
