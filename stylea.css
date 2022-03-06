@@ -2,7 +2,6 @@
 
 @font-face {
     font-family: 'Sansita Swashed', cursive;
-    src: 
     font-weight: normal;
     font-size: normal;
 }
@@ -79,12 +78,14 @@ body{
 
 }
 
-@media (max-width: 1000)
+@media (max-width: 1000){
 .card{
     background: var(--purple);
+}
 }
 
 @media (max-width: 700px){
 .card{
     background: var(--orange);
+}
 }
