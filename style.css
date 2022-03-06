@@ -41,7 +41,7 @@ body{
     flex-flow: column nowrap;
     width: 120px;;
     flex-shrink: 0;
-    border: 5px solid skyblue;
+    border: 5px solid black;
     padding: 10px;
 }
 .sidebar > span{
