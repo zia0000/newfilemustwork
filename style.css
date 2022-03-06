@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap');
-
 @font-face {
     font-family: 'Sansita Swashed', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap');
     font-weight: normal;
     font-size: normal;
 }
