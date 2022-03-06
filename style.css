@@ -6,9 +6,9 @@
 }
 
 :root{
-    --purple: #4f4952;
-    --pink: #a56495;
-    --orange: #ff75e1;
+    --purple: #c65ffa;
+    --pink: #ee48d2;
+    --orange: #f35c5c;
 }
 html, body{
     height: 100%;
@@ -32,7 +32,7 @@ body{
     justify-content: center; 
     align-items: center; 
     color: black; 
-    border: 5px solid yellow; 
+    border: 5px solid black; 
     height: 50px; 
     font-size: 2rem;
 }
