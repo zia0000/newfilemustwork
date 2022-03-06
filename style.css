@@ -37,6 +37,13 @@ body{
     font-size: 1.5rem;
 }
 
+main{
+    display: flex;
+    flex-flow: row nowrap;
+    height: calc(100% - 60%);
+    margin-top: 10px;
+}
+
 .sidebar{
     display: flex;
     flex-flow: column nowrap;
