@@ -6,9 +6,9 @@
 }
 
 :root{
-    --purple: #4000FF;
-    --mint: #58FAAC;
-    --orange: #FE9A2E;
+    --purple: #473B8C;
+    --pink: #8C4370;
+    --orange: #CF4A54;
 }
 html, body{
     height: 100%;
@@ -72,7 +72,7 @@ main{
     width: 200px;
     min-height: 150px;
     padding: 10px;
-    background-color: var(--mint);
+    background-color: var(--purple);
     margin: 10px;
     border-radius: 10px;
 
@@ -91,7 +91,7 @@ main{
 
 @media (max-width: 1000px){
 .card{
-    background: var(--purple);
+    background: var(--pink);
     }
 }
 
