@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap');
+
+@font-face {
+    font-family: 'Sansita Swashed', cursive;
+    src: 
+    font-weight: normal;
+    font-size: normal;
+}
+
+:root{
+    --purple: #4000FF;
+    --mint: #58FAAC;
+    --orange: #FE9A2E;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    min-width: 320px;
+}
+body{
+    padding: 10px
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.title{
+    display: flex;
+    flex-flow: row nowrap;
+    height: calc(100% -60px);
+    margin-top: 10px
+}
+
+.sidebar{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 120px;
+    flex-shrink: 0;
+    border: 5px solid skyblue;
+    padding: 10px;
+}
+.sidebar > span{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    border: 5px solid burlywood;
+    margin-left: 10px;
+    align-content: flex-start;
+    overflow-y: scroll
+}
+.card{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 200px;
+    min-height: 150px;
+    padding: 10px;
+    background-color: var(--mint);
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.card > img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px
+}
+.card > span{
+    text-align: center;
+    word-break: break-all;
+
+}
+
+@media (max-width: 1000)
+.card{
+    background: var(--purple);
+}
+
+@media (max-width: 700px){
+.card{
+    background: var(--orange);
+}
