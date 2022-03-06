@@ -32,7 +32,7 @@ body{
     justify-content: center; 
     align-items: center; 
     color: #6b4ee9; 
-    border: 10px solid black; 
+    border: 5px solid black; 
     height: 50px; 
     font-size: 2rem;
 }
