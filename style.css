@@ -39,7 +39,7 @@ body{
 .sidebar{
     display: flex;
     flex-flow: column nowrap;
-    width: 120px;
+    width: 120px;;
     flex-shrink: 0;
     border: 5px solid skyblue;
     padding: 10px;
