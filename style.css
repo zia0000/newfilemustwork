@@ -18,7 +18,7 @@ html, body{
     min-width: 320px;
 }
 body{
-    padding: 10px
+    padding: 10px;
 }
 
 *{
@@ -84,11 +84,11 @@ body{
 @media (max-width: 1000px){
 .card{
     background: var(--purple);
-}
+    }
 }
 
 @media (max-width: 700px){
 .card{
     background: var(--orange);
-}
+    }
 }
