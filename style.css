@@ -31,7 +31,7 @@ body{
     flex-flow: row nowrap; 
     justify-content: center; 
     align-items: center; 
-    color: rgb(219, 10, 10); 
+    color: black; 
     border: 5px solid black; 
     height: 50px; 
     font-size: 2rem;
