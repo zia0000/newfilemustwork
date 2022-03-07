@@ -6,9 +6,9 @@
 }
 
 :root{
-    --purple: #c65ffa;
-    --pink: #ee48d2;
-    --orange: #f35c5c;
+    --lavender: #8c5aff;
+    --purple: #d18bff;
+    --pink: #ff92de;
 }
 html, body{
     height: 100%;
@@ -72,7 +72,7 @@ main{
     width: 200px;
     min-height: 150px;
     padding: 10px;
-    background-color: var(--purple);
+    background-color: var(--lavender);
     margin: 10px;
     border-radius: 10px;
 
@@ -91,12 +91,16 @@ main{
 
 @media (max-width: 1000px){
 .card{
-    background: var(--pink);
+    background: var(--purple);
     }
 }
 
 @media (max-width: 700px){
 .card{
-    background: var(--orange);
+    background: var(--pink);
     }
+}
+
+#mostwanted{
+    color: red;
 }
