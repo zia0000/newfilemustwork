@@ -35,7 +35,6 @@ body{
     border: 5px solid black; 
     height: 50px; 
     font-size: 2rem;
-    background-image: linear-gradient(to right, #f43b47 0%, #453a94 100%);
 }
 
 main{
@@ -66,6 +65,7 @@ main{
     margin-left: 10px;
     align-content: flex-start;
     overflow-y: scroll;
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
 }
 .card{
     display: flex;
