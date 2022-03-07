@@ -62,7 +62,7 @@ main{
     display: flex;
     flex-flow: row wrap;
     flex: 1;
-    border: 5px solid black;
+    border: 5px solid white;
     margin-left: 10px;
     align-content: flex-start;
     overflow-y: scroll;
