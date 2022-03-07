@@ -7,7 +7,7 @@
 
 :root{
     --gray: #3b5447;
-    --green: #005534;
+    --darkgary: #1f2824;
     --mint: #026b43;
 }
 html, body{
@@ -72,7 +72,7 @@ main{
     width: 200px;
     min-height: 150px;
     padding: 10px;
-    background-color: var(--green);
+    background-color: var(--darkgary);
     margin: 10px;
     border-radius: 10px;
 
