@@ -7,8 +7,8 @@
 
 :root{
     --gray: #3b5447;
-    --darkgary: #1f2824;
-    --mint: #026b43;
+    --darkgary: #333f3a;
+    --mint: #526d62;
 }
 html, body{
     height: 100%;
