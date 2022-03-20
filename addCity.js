@@ -9,7 +9,7 @@ function addItem(cityName, image, content) {
 
     const span = document.createElement("span");
     span.innerHTML = cityName;
-    document.querySelector("#sidebar").appendChild(span);
+    document.querySelector("sidebar").appendChild(span);
 }
 
 function addCityHandle(event){
