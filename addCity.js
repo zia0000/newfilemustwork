@@ -12,8 +12,8 @@ function addItem(cityName, image, content) {
     document.querySelector("#sidebar").appendChild(span);
 }
 
-function addItemHandle(e){
-    e.preventDefault();
+function addItemHandle(event){
+    event.preventDefault();
     const cityName = document.getElementById("cityName").value;
     const image = document.getElementById("image").value;
     const content = document.getElementById("content").value;
