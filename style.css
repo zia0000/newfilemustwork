@@ -160,7 +160,7 @@ main{
     transform: translate(-50%, -50%);
     width: 400px;
     height: 400px;
-    background-color: white;
+    background-color: rgb(11, 211, 238);
     border-radius: 10px;
     z-index: 11;
     padding: 20px;
