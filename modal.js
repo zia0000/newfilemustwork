@@ -1,6 +1,6 @@
 document.getElementById("modal").style.display = "none";
 
-document.getElementById("addItem").onclick = function() { //city
+document.getElementById("addItem").onclick = function() { 
     document.getElementById("modal").style.display = "block";
 }
 

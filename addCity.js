@@ -1,9 +1,9 @@
-function addItem(cityName, image, content) { //add city
+function addItem(cityName, image, content) { 
     const div = document.createElement("div");
     div.classList.add("card");
     div.innerHTML = `
             <img src="${image}" alt="${cityName}" />
-            <span>${content}</span>
+            <div>${content}</div>
         `;
     document.querySelector("#container").appendChild(div);
 
@@ -17,9 +17,9 @@ function addCityHandle(event){
     const cityName = document.getElementById("cityName").value;
     const image = document.getElementById("image").value;
     const content = document.getElementById("content").value;
-    addItem(cityName, image, content); //addItem
+    addItem(cityName, image, content);
     closeModal();
 }
 
 
-document.getElementById("addItemForm").addEventListener("submit", addCityHandle); //Iten>City
+document.getElementById("addItemForm").addEventListener("submit", addCityHandle);
