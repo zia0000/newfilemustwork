@@ -92,7 +92,7 @@ main{
 /*시작한다.*/
 .add-button{
     padding: 7px 10px;
-    background: black;
+    background: rgb(136, 180, 250);
     color: var(--coral);
     border-radius: 10px;
     font-weight: 700;
@@ -101,13 +101,13 @@ main{
 
 .add-button:hover{
     background: var(--coral);
-    color: black;
+    color: rgb(248, 7, 236);
 }
 
 .submit-button{
     padding: 17px 17px;
     background: var(--beige);
-    color: black;
+    color: rgb(238, 8, 8);
     border-radius: 10px;
     font-size: 18px;
     font-weight: 700;
