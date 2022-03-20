@@ -6,8 +6,8 @@
 }
 
 :root{
-    --gray: #3b5447;
-    --darkgary: #333f3a;
+    --lilac: #af73fd;
+    --blue: #7d95ff;
     --mint: #526d62;
 }
 html, body{
@@ -73,7 +73,7 @@ main{
     width: 200px;
     min-height: 150px;
     padding: 10px;
-    background-color: var(--darkgary);
+    background-color: var(--blue);
     margin: 10px;
     border-radius: 10px;
 
@@ -92,7 +92,7 @@ main{
 
 @media (max-width: 1000px){
 .card{
-    background: var(--gray);
+    background: var(--lilac);
     }
 }
 
