@@ -43,18 +43,19 @@
         </section>
     </main>
     
-<div class="modal-background" id="modal">
-    <form class="modal" id="addCityForm">
-        <label for="cityName" class="label">이름</label>
-        <input id="cityName" type="text" placeholder="화이트와인" class="input" maxlength="10" required/>
-        <label for="image" class="label">이미지</label>
-        <input id="image" type="text" placeholder="URL" class="input" required />
-        <label for="content" class="label">내용</label>
-        <input id="content" type="text" placeholder="주로 청포도로 만든다네요." class="input" required />
-        <button type="submit" class="submit-button">save</button>
-    </form>
-</div>
-<script src="./modal.js"></script>
-<script src="./addCity.js"></script>
+    <div id="modal">
+        <form>
+            <p id="closeModal">close</p>
+            <p>Where?</p>
+            <input id="cityName" type="text" placeholder="LA" maxlength="20" required/>
+            <p>Image</p>
+            <input id="image" type="text" placeholder="URL" required/>
+            <button type="submit" class="submit-button">ADD!</button>
+        </form>
+    </div>
+
+    <script src="./modal.js"></script>
+    <script src="./add.js"></script>
+
 </body>
 </html>
