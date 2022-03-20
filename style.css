@@ -89,7 +89,7 @@ main{
 
 }
 
-
+/*시작한다.*/
 .add-button{
     padding: 7px 10px;
     background: black;
@@ -181,6 +181,7 @@ main{
     transform: scale(1.2);
 }
 
+/*주석 끝*/
 
 @media (max-width: 1000px){
 .card{
