@@ -1,13 +1,13 @@
-document.querySelector(#modal).style.display = "none";
+document.getElementById("modal").style.display = "none";
 
-document.querySelector(#addCity).onclick = function() {
-    document.querySelector(#modal).style.display = "block";
+document.getElementById("addItem").onclick = function() {
+    document.getElementById("modal").style.display = "block";
 }
 
-document.querySelector(#closeModal).onclick = function() {
-    document.querySelector(#modal).style.display = "none";
+document.getElementById("closeModal").onclick = function() {
+    document.getElementById("modal").style.display = "none";
 }
 
 function closeModal(){
-    document.querySelector(#modal).style.display = "none";
+    document.getElementById("modal").style.display = "none";
 }
