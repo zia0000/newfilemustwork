@@ -21,4 +21,4 @@ function addHandle(event){
     closeModal();
 }
 
-document.querySelector(#addItemForm).addEventListener("submit", addHandle)
+document.querySelector(#addCityForm).addEventListener("submit", addHandle)
