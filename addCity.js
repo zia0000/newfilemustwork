@@ -1,23 +1,23 @@
-function addItem(name, image, content) {
+function addItem(cityName, image, content) {
     const div = document.createElement("div");
     div.classList.add("card");
     div.innerHTML = `
-            <img src="${image}" alt="${name}" />
+            <img src="${image}" alt="${cityName}" />
             <span>${content}</span>
         `;
     document.querySelector("#container").appendChild(div);
 
     const span = document.createElement("span");
-    span.innerHTML = name;
+    span.innerHTML = cityName;
     document.querySelector("#sidebar").appendChild(span);
 }
 
 function addItemHandle(e){
     e.preventDefault();
-    const name = document.getElementById("name").value;
+    const cityName = document.getElementById("cityName").value;
     const image = document.getElementById("image").value;
     const content = document.getElementById("content").value;
-    addItem(name, image, content);
+    addItem(cityName, image, content);
     closeModal();
 }
 
