@@ -19,7 +19,7 @@
             <span>Tokyo</span>
             <button type="button" class="add-button" id="addItem">add your fav city</button>
         </div>
-        <section class="container">
+        <section class="container" id="container">
             <div class="card">
                 <img src="img/madridcity.jpg" alt="마드리드" />
                 <span>Capital of Espana🇪🇸</span>
@@ -46,18 +46,18 @@
 </html>
 
 <div class="modal-background" id="modal">
-        <form class="modal" id="addCityForm">
-            <span class="modal-close" id="closeModal">X</span>
-            <label for="cityName" class="label">이름</label>
-            <input id="cityName" type="text" placeholder="화이트와인" class="input" maxlength="10" required/>
-            <label for="image" class="label">이미지</label>
-            <input id="image" type="text" placeholder="URL" class="input" required />
-            <label for="content" class="label">내용</label>
-            <input id="content" type="text" placeholder="주로 청포도로 만든다네요." class="input" required />
-            <button type="submit" class="submit-button">save</button>
-        </form>
-    </div>
-    <script src="./modal.js"></script>
-    <script src="./addCity.js"></script>
-    </body>
+    <form class="modal" id="addCityForm">
+        <span class="modal-close" id="closeModal">X</span>
+        <label for="cityName" class="label">이름</label>
+        <input id="cityName" type="text" placeholder="화이트와인" class="input" maxlength="10" required/>
+        <label for="image" class="label">이미지</label>
+        <input id="image" type="text" placeholder="URL" class="input" required />
+        <label for="content" class="label">내용</label>
+        <input id="content" type="text" placeholder="주로 청포도로 만든다네요." class="input" required />
+        <button type="submit" class="submit-button">save</button>
+    </form>
+</div>
+<script src="./modal.js"></script>
+<script src="./addCity.js"></script>
+</body>
 </html>
