@@ -8,9 +8,12 @@ function addItem(cityName, image, content) {
     document.querySelector("#container").appendChild(div);
 
     const span = document.createElement("span");
-    span.innerHTML = cityName;
+    span.innerHTML = `✏️${cityName}`;
     document.querySelector("#sidebar").appendChild(span);
 }
+
+//이걸로 하면 좋겠다 근데 안됨document.querySelector("#sidebar").before(button);
+// 12번 줄 document.querySelector("#sidebar").append(span);
 
 function addCityHandle(event){
     event.preventDefault();
